@@ -26,7 +26,7 @@ body{
 }
 
 header{
-    padding-top: 2rem;
+    padding: 2rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,7 @@ header svg path{
     cursor: pointer;
 }
 
-.container h2, .class-wrapper h3, .info-user p{
+.container h2, .class-wrapper h3{
     color: var(--fc-title);
 }
 
@@ -122,10 +122,18 @@ header svg path{
 
 .class-wrapper p{
     text-align: left;
+    font-weight: bold;
+}
+
+#bio_user{
+    font-weight: 400;
+    margin-top: 1rem;
+    font-size: 1.4rem;
 }
 
 .class-wrapper span{
     margin-left: 0.5rem;
+    font-weight: 400;
 }
 
 
